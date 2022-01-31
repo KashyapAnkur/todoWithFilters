@@ -1,0 +1,135 @@
+/* main */
+.navbar{
+    position: relative;
+    margin-top: 10px;    
+}
+
+.navbar > div {
+    float: left;
+    padding: 10px;
+}
+
+.navbar > div > a {
+    text-decoration: none;
+    color: #696969;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.navbar > div > a:hover {
+    color: lightgreen;
+    background-color: #696969;
+}
+/* main */
+
+/* customized class names */
+.navbarActive {
+    color: lightgreen !important;
+    background-color: #696969 !important;
+}
+
+.saveStatusButton {
+    cursor: pointer;
+    color: #696969;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.saveStatusButton:hover {
+    text-decoration: none;
+    color: lightgreen !important;
+    background-color: #696969 !important;
+}
+/* customized class names */
+
+.todoSection {
+    margin: 20px;
+    padding: 10px;
+    width: 600px;
+}
+
+.displayTodoSection {
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+}
+
+
+/* FORM CSS*/
+.input {
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.select {
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.textarea {
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    /* height: 30px; */
+}
+
+.secondaryButton{ 
+    width: 100%;
+}
+
+#dropdown-variants-secondary {
+    background-color: #E9967A;
+    border-color: #E9967A;
+    width: 100%;
+}
+
+.error {
+    color: yellow;
+}
+/* FORM CSS*/
+.dateRangePickerCustom {
+    width: 100%;
+    height: 44px;
+}
+
+.taskPriorityLow{
+    color: yellow;
+    background-color: #E9967A;
+    border: 1px yellow solid;
+}
+
+.taskPriorityHigh{
+    color: maroon;
+    background-color: #E9967A;
+    border: 1px maroon solid;
+}
+
+.taskPriorityUrgent{
+    color: red;
+    background-color: #E9967A;
+    border: 1px red solid;
+}
+
+.taskStatusPending{
+    color: gray;
+    background-color: #E9967A;
+    border: 1px gray solid;
+}
+
+.taskStatusCompleted{
+    color: lightgreen;
+    background-color: #E9967A;
+    border: 1px lightgreen solid;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    top: -2px;
+    position: relative;
+}
